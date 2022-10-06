@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBitcoin", "NBitcoin\NBitcoin.csproj", "{7B692A4C-412A-41BA-A1F8-5DF8F7450ABC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBitcoin.Secp256k1", "NBitcoin.Secp256k1\NBitcoin.Secp256k1.csproj", "{6E105AA4-767F-4045-B858-A7C400DCBC40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seedgen", "seedgen\seedgen.csproj", "{46007EDA-71A3-4ABE-959D-E522121F9A73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bech32", "Bech32\Bech32.csproj", "{2000C621-5F70-4433-8045-DBED5564658D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B692A4C-412A-41BA-A1F8-5DF8F7450ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B692A4C-412A-41BA-A1F8-5DF8F7450ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B692A4C-412A-41BA-A1F8-5DF8F7450ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B692A4C-412A-41BA-A1F8-5DF8F7450ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E105AA4-767F-4045-B858-A7C400DCBC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E105AA4-767F-4045-B858-A7C400DCBC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E105AA4-767F-4045-B858-A7C400DCBC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E105AA4-767F-4045-B858-A7C400DCBC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46007EDA-71A3-4ABE-959D-E522121F9A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46007EDA-71A3-4ABE-959D-E522121F9A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46007EDA-71A3-4ABE-959D-E522121F9A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46007EDA-71A3-4ABE-959D-E522121F9A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2000C621-5F70-4433-8045-DBED5564658D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2000C621-5F70-4433-8045-DBED5564658D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2000C621-5F70-4433-8045-DBED5564658D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2000C621-5F70-4433-8045-DBED5564658D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1246380-43E4-4710-99A7-F7524458155E}
+	EndGlobalSection
+EndGlobal
